@@ -1,0 +1,46 @@
+@media screen and (max-width: 480px) {
+    .main-form {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-top: 110px;
+        margin-left: 20px;
+    }
+    .auth-form {
+        height: auto;
+        margin-top: 50px;
+    }
+    .medium-floor-text {
+        font-size: 20px;
+    }
+    .back{
+        width: 25px;
+        height: 1px;
+    }
+    .ttt{
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        margin-top: 50px;
+    }
+    .medium-floor-text2 {
+        font-size: 12px;
+        width: auto;
+    }
+    .main-auth {
+        margin-top: 10px;
+    }
+    .input-auth {
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+    }
+    .hide-icon-style {
+        margin-top: -40px;
+        margin-left: 90%;
+    }
+    .sign-in {
+        height: 60px;
+        font-size: 14px;
+    }
+}

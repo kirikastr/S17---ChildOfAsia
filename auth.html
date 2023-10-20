@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Авторизация</title>
+	<link rel="icon" href="./assets/logo.svg">
+	<link rel="stylesheet" href="./css/auth.css">
+	<link rel="stylesheet" href="./css/fonts.css">
+	<link rel="stylesheet" href="./css/media2.css">
+	<link href="stylesheet.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="df">
+		<div class="back">
+			<img src="./assets/back.svg" class="ttt" onclick="window.location.href = 'index.html'" alt="">			
+		</div>
+		<div class="main-form">
+			<div class="logo-cont">
+				<img src="./assets/logo.svg" alt="" class="logo">			
+			</div>
+			<div class="auth-form">
+				<h1 class="medium-floor-text">Вход</h1>
+				<p class="medium-floor-text2">Введите данные своего аккаунта</p>
+				<div class="main-auth">
+					<p class="auth-form-text">Почта</p>	
+					<input class="input-auth" type="email" placeholder="Введите свою почту">			
+				</div>
+				<div class="main-auth2">
+					<p class="auth-form-text">Пароль</p>
+					<input type="password" class="input-auth" placeholder="Введите пароль" id="passwordInput">
+					<div class="df">
+						<img src="./assets/eye.svg" alt="" class="hide-icon-style" onclick="togglePassword()">
+					</div>
+					<div class="df">
+						<a href="./forgot-pass.html" class="forgot-text">Забыли пароль?</a>					
+					</div>
+				</div>
+				<button onclick="window.location.href = 'main.html'" class="sign-in button">Войти</button>
+				<div class="bottom">
+					<div class="or df">
+						<div class="line">
+							<svg xmlns="http://www.w3.org/2000/svg" width="102" height="1" viewBox="0 0 102 1" fill="none">
+							  <path d="M101 0.5L1 0.5" stroke="#F3F3F5" stroke-linecap="round"/>
+							</svg>
+						</div>
+						<div class="or-text"><p class="or-text">Или войдите через</p></div>
+						<div class="line" style="margin-left: 8px;">
+							<svg xmlns="http://www.w3.org/2000/svg" width="102" height="1" viewBox="0 0 102 1" fill="none">
+							  <path d="M101 0.5L1 0.5" stroke="#F3F3F5" stroke-linecap="round"/>
+							</svg>
+						</div>
+					</div>
+					<div class="f-g-v df">
+						<div class="f fgv-box">
+							<img class="logo1 f-logo" src="./assets/facebook.svg" alt="">
+						</div>
+						<div class="g fgv-box">
+							<img class="logo1 g-logo" src="./assets/google.svg" alt="">
+						</div>
+						<div class="v fgv-box">
+							<img class="logo1 v-logo" src="./assets/vk.svg" alt="">
+						</div>
+					</div>
+					<div class="df">
+						<p class="no-accs ml lll">Нет аккаунта? <a class="reg-text" href="./reg.html">Зарегистрируйтесь</a></p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</body>
+
+	<script>
+		  function togglePassword() {
+		    var passwordInput = document.getElementById("passwordInput");
+		    if (passwordInput.type === "password") {
+		      passwordInput.type = "text";
+		    } else {
+		      passwordInput.type = "password";
+		    }
+		  }
+	</script>
+
+</html>

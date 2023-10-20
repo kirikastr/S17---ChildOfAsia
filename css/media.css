@@ -1,0 +1,108 @@
+
+.main-form {
+    width: 330px;
+    height: 571px;
+    margin-left: 795px;
+    margin-top: 290px;
+}
+
+.header {
+    height: 190px;
+    width: 330px;
+    margin-left: 18px;
+}
+
+.hhh{
+    margin-top: 65px;
+}
+
+.project-name {
+    color: #FF631F;
+    font-family: Neuron;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    padding: 0 ;
+    margin-left: 8px;
+}
+.asia{
+    color: #000;
+    font-family: Neuron;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;  
+}
+
+.tagline {
+    color: #000;
+    font-family: Neuron;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 28px;
+}
+
+.df {
+    display: flex;
+}
+
+.hhh{
+    margin-left: 28px;
+}
+
+.tagline2 {
+    color: #A4ACB7;
+    font-family: Neuron;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 28px;
+}
+
+.sign-in {
+    margin-left: 5%;
+}
+
+.reg {
+    margin-left: 5%;
+}
+
+.button:hover {
+    background: rgba(57, 66, 144, 1);
+    color: var(--buttons-text-default, #F2F2F2);
+}
+
+
+@media screen and (max-width: 480px) {
+    .main-form {
+        width: 100%; 
+        margin: 0; 
+        margin-top: 50px; 
+    }
+    .header {
+        height: 120px; 
+    }
+    .project-name {
+        font-size: 20px; 
+        margin-top: 3px;
+    }
+    .tagline {
+        font-size: 20px; 
+    }
+    .tagline2 {
+        font-size: 12px; 
+        margin-top: -5px;
+    }
+    .button {
+        height: 40px; 
+        font-size: 10px; 
+    }
+    .btn-cont {
+        margin-top: 10px; 
+    }
+}

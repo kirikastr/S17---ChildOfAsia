@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Регистрация</title>
+	<link rel="icon" href="./assets/logo.svg">
+	<link rel="stylesheet" href="./css/reg.css">
+	<link rel="stylesheet" href="./css/fonts.css">
+	<link href="stylesheet.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/media6.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="df">
+		<div class="back">
+			<img src="./assets/back.svg" class="ttt" onclick="window.location.href = 'index.html'" alt="">			
+		</div>
+		<div class="main-form">
+			<div class="logo-cont">
+				<img src="./assets/logo.svg" alt="" class="logo">				
+			</div>
+			<div class="auth-form">
+				<h1 class="medium-floor-text">Регистрация</h1>
+				<p class="medium-floor-text2">Введите свою личную информацию</p>
+				<div class="main-auth">
+					<p class="auth-form-text">ФИО</p>	
+					<input class="input-auth" type="text" placeholder="Введите свое имя и фамилию">			
+				</div>
+				<div class="main-auth">
+					<p class="auth-form-text">Почта</p>	
+					<input class="input-auth" type="text" placeholder="Введите свою почту">			
+				</div>
+				<div class="main-auth2" style="margin-top: 10px;">
+					<p class="auth-form-text">Пароль</p>
+					<input type="password" class="input-auth" placeholder="Введите пароль" id="passwordInput">
+					<div class="df">
+						<img src="./assets/eye.svg" alt="" class="hide-icon-style" onclick="togglePassword()">
+					</div>
+				</div>
+				<div class="main-auth2" style="margin-top: -25px;">
+					<p class="auth-form-text">Повторите пароль</p>
+					<input type="password" class="input-auth" placeholder="Введите пароль" id="passwordInput">
+					<div class="df">
+						<img src="./assets/eye.svg" alt="" class="hide-icon-style" onclick="togglePassword()">
+					</div>
+				</div>
+				<button onclick="window.location.href = 'auth.html'" class="sign-in button">Зарегистрироваться</button>
+				<div class="bottom">
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</body>
+
+	<script>
+		  function togglePassword() {
+		    var passwordInput = document.getElementById("passwordInput");
+		    if (passwordInput.type === "password") {
+		      passwordInput.type = "text";
+		    } else {
+		      passwordInput.type = "password";
+		    }
+		  }
+	</script>
+
+</html>
+

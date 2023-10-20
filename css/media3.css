@@ -1,0 +1,95 @@
+@media screen and (max-width: 480px) {
+    .main-form {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .header {
+        height: 120px;
+        margin-left: 40px;
+    }
+    .medium-floor-text {
+        font-size: 20px;
+        margin-top: 120px;
+        margin-left: 16px;
+    }
+    .medium-floor-text2 {
+        font-size: 12px;
+        margin-top: -5px;
+        width: 100%; 
+        width: 250px;
+        margin-left: 16px;
+    }
+    .auth-form {
+        position: relative;
+        height: auto;
+        width: 100%; 
+        margin-top: 20px;
+    }
+    .auth-form-text {
+        font-size: 14px;
+        margin-top: 15px;
+        margin-left: 35px;
+    }
+    .back{
+        width: 1px;
+        height: 1px;
+    }
+    .ttt{
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .main-auth {
+        height: auto;
+        width: 100%; /* Изменил ширину для мобильных устройств */
+        margin-top: 15px;
+    }
+    .input-auth {
+        width: 100%;
+        width: 300px; 
+        height: 50px;
+        border-radius: 70px;
+        margin-left: 30px;
+    }
+    .hide-icon-style {
+        margin-top: 10px;
+        margin-left: 80%; /* Изменил положение */
+    }
+    .forgot-text {
+        margin-top: 10px;
+        margin-left: 0; /* Изменил положение */
+    }
+    .sign-in {
+        margin-top: 20px;
+        width: 310px;
+        height: 50px;
+        margin-left: 30px;
+        border-radius: 70px;
+    }
+    .bottom {
+        width: 100%; /* Изменил ширину для мобильных устройств */
+    }
+    .or-text {
+        margin-left: 0; /* Изменил положение */
+    }
+    .fgv-box {
+        width: 70px;
+        height: 40px;
+        margin: 0 5px; /* Изменил отступы */
+    }
+    .g {
+        margin-left: 0; /* Изменил положение */
+    }
+    .v {
+        margin-left: 0; /* Изменил положение */
+    }
+    .f-logo,
+    .g-logo,
+    .v-logo {
+        margin-top: 10px; /* Изменил положение */
+    }
+
+}

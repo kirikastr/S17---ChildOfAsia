@@ -1,0 +1,87 @@
+@media screen and (max-width: 480px) {
+    .main-form {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 3;
+    }
+    .header {
+        height: 120px;
+    }
+    .hhh {
+        margin-top: 5px;
+    }
+    .back{
+        width: 25px;
+        height: 1px;
+    }
+    .ttt{
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        margin-top: 50px;
+    }
+    .project-name {
+        font-size: 20px;
+        margin-top: 3px;
+    }
+    .forgot-text{
+        font-size: 10px;
+    }
+    .tagline {
+        font-size: 20px;
+    }
+    .tagline2 {
+        font-size: 12px;
+        margin-top: -5px;
+    }
+    .or-text{
+        font-size: 10.5px;
+        padding: 0;
+        margin: 0;
+        margin-top: 6px;
+        margin-left: 7px;
+    }
+    .button {
+        height: 50px;
+        font-size: 10px;
+        margin-top: -9px;
+    }
+    .btn-cont {
+        margin-top: 10px;
+    }
+    .fgv-box{
+        width: 90px;
+        height: 50px;
+    }
+    .f-logo{
+        margin: 0;
+        padding: 0;
+        margin-top: 14px;
+        margin-left: 38px;
+    }
+    .g-logo{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 30px;        
+    }
+    .v-logo{
+        margin: 0;
+        padding: 0;
+        margin-top: 14px;
+        margin-left: 32px;        
+    }
+    .reg-text{
+        font-size: 11px;
+
+    }
+
+    .lll{
+        margin-top: 50px;
+        font-size: 11px;
+        margin-left: 70px;
+    }
+
+}

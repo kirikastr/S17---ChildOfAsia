@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronExtraLight.eot');
+    src: local('Neuron ExtraLight'), local('NeuronExtraLight'),
+        url('NeuronExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('NeuronExtraLight.woff2') format('woff2'),
+        url('NeuronExtraLight.woff') format('woff'),
+        url('NeuronExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronBold.eot');
+    src: local('Neuron Bold'), local('NeuronBold'),
+        url('NeuronBold.eot?#iefix') format('embedded-opentype'),
+        url('NeuronBold.woff2') format('woff2'),
+        url('NeuronBold.woff') format('woff'),
+        url('NeuronBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronLight-Italic.eot');
+    src: local('Neuron Light Italic'), local('NeuronLight-Italic'),
+        url('NeuronLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('NeuronLight-Italic.woff2') format('woff2'),
+        url('NeuronLight-Italic.woff') format('woff'),
+        url('NeuronLight-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronExtraBold.eot');
+    src: local('Neuron ExtraBold'), local('NeuronExtraBold'),
+        url('NeuronExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('NeuronExtraBold.woff2') format('woff2'),
+        url('NeuronExtraBold.woff') format('woff'),
+        url('NeuronExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('Neuron-Italic.eot');
+    src: local('Neuron Italic'), local('Neuron-Italic'),
+        url('Neuron-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Neuron-Italic.woff2') format('woff2'),
+        url('Neuron-Italic.woff') format('woff'),
+        url('Neuron-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronHeavy-Italic.eot');
+    src: local('Neuron Heavy Italic'), local('NeuronHeavy-Italic'),
+        url('NeuronHeavy-Italic.eot?#iefix') format('embedded-opentype'),
+        url('NeuronHeavy-Italic.woff2') format('woff2'),
+        url('NeuronHeavy-Italic.woff') format('woff'),
+        url('NeuronHeavy-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronBold-Italic.eot');
+    src: local('Neuron Bold Italic'), local('NeuronBold-Italic'),
+        url('NeuronBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('NeuronBold-Italic.woff2') format('woff2'),
+        url('NeuronBold-Italic.woff') format('woff'),
+        url('NeuronBold-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronExtraBold-Italic.eot');
+    src: local('Neuron ExtraBold Italic'), local('NeuronExtraBold-Italic'),
+        url('NeuronExtraBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('NeuronExtraBold-Italic.woff2') format('woff2'),
+        url('NeuronExtraBold-Italic.woff') format('woff'),
+        url('NeuronExtraBold-Italic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronExtraLight-Italic.eot');
+    src: local('Neuron ExtraLight Italic'), local('NeuronExtraLight-Italic'),
+        url('NeuronExtraLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('NeuronExtraLight-Italic.woff2') format('woff2'),
+        url('NeuronExtraLight-Italic.woff') format('woff'),
+        url('NeuronExtraLight-Italic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronBlack.eot');
+    src: local('Neuron Black'), local('NeuronBlack'),
+        url('NeuronBlack.eot?#iefix') format('embedded-opentype'),
+        url('NeuronBlack.woff2') format('woff2'),
+        url('NeuronBlack.woff') format('woff'),
+        url('NeuronBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronBlack-Italic.eot');
+    src: local('Neuron Black Italic'), local('NeuronBlack-Italic'),
+        url('NeuronBlack-Italic.eot?#iefix') format('embedded-opentype'),
+        url('NeuronBlack-Italic.woff2') format('woff2'),
+        url('NeuronBlack-Italic.woff') format('woff'),
+        url('NeuronBlack-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronDemiBold-Italic.eot');
+    src: local('Neuron DemiBold Italic'), local('NeuronDemiBold-Italic'),
+        url('NeuronDemiBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('NeuronDemiBold-Italic.woff2') format('woff2'),
+        url('NeuronDemiBold-Italic.woff') format('woff'),
+        url('NeuronDemiBold-Italic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('Neuron.eot');
+    src: local('Neuron'),
+        url('Neuron.eot?#iefix') format('embedded-opentype'),
+        url('Neuron.woff2') format('woff2'),
+        url('Neuron.woff') format('woff'),
+        url('Neuron.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronLight.eot');
+    src: local('Neuron Light'), local('NeuronLight'),
+        url('NeuronLight.eot?#iefix') format('embedded-opentype'),
+        url('NeuronLight.woff2') format('woff2'),
+        url('NeuronLight.woff') format('woff'),
+        url('NeuronLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronHeavy.eot');
+    src: local('Neuron Heavy'), local('NeuronHeavy'),
+        url('NeuronHeavy.eot?#iefix') format('embedded-opentype'),
+        url('NeuronHeavy.woff2') format('woff2'),
+        url('NeuronHeavy.woff') format('woff'),
+        url('NeuronHeavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuron';
+    src: url('NeuronDemiBold.eot');
+    src: local('Neuron DemiBold'), local('NeuronDemiBold'),
+        url('NeuronDemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NeuronDemiBold.woff2') format('woff2'),
+        url('NeuronDemiBold.woff') format('woff'),
+        url('NeuronDemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+

@@ -1,0 +1,113 @@
+.main-form{
+	width: 330px;
+	height: 571px;
+
+	margin-left: 795px;
+	margin-top: 230px;
+}
+.header{
+	height: 190px;
+	width: 330px;
+
+}
+.logo{
+
+}
+.main{
+	width: 330px;
+	height: 316px;
+
+}
+.header-main{
+
+}
+.project-name{
+	color: #FF631F;
+	font-family: Neuron;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+
+}
+
+.asia{
+	color: #000;
+	font-family: Jost;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;	
+}
+.tagline{
+	color: var(--text-black-hule, #000);
+	font-family: Onest;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;	
+}
+.df{
+	display: flex;
+}
+.tagline-cont{
+	margin-top: 20px;
+}
+.tagline2{
+	color: var(--text-light-irrelevant, #A4ACB7);
+
+	/* irrelevant/regular */
+	font-family: Onest;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;	
+	margin-top: -8px;
+}
+.sign-in{
+	display: flex;
+	width: 330px;
+	height: 55px;
+	padding: 3px 61px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;	
+	border-radius: 70px;
+	background: #FF631F;
+	border:none;
+	margin-top: 21px;
+	color: var(--buttons-text-default, #F2F2F2);
+
+	/* buttons/text/base */
+	font-family: Onest;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+.reg{
+	display: flex;
+	width: 330px;
+	height: 55px;
+	padding: 3px 61px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 70px;
+	border: 2px solid var(--buttons-stroke-irrelevant, #969696);
+	background: var(--elements-white-hule, #FFF);
+	color: var(--buttons-text-black-hule, #000);
+
+	/* buttons/text/base */
+	font-family: Onest;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-top: 21px;
+}
+.button:hover{
+	background: rgba(57, 66, 144, 1);
+	color: var(--buttons-text-default, #F2F2F2);
+
+}

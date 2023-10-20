@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Главная</title>
+	<link rel="stylesheet" href="./css/schedule.css">
+    <link href="stylesheet.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+
+		<div class="main">
+			
+			<div class="welcome-cont df">
+				<img src="./assets/logo.svg" alt="">
+				<p class="welcome-text">РЕЗУЛЬТАТЫ</p>
+				<img class="btn-plus" src="./assets/settings.svg" alt="">
+			</div>
+			<div class="search-cont">
+				<input type="search" class="search-input" placeholder="Поиск" id="toggleInput">
+				<svg id="image" class="search-icon" xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+				  <path d="M7.74491 12.6667C10.7473 12.6667 13.1811 10.2789 13.1811 7.33333C13.1811 4.38781 10.7473 2 7.74491 2C4.74257 2 2.30869 4.38781 2.30869 7.33333C2.30869 10.2789 4.74257 12.6667 7.74491 12.6667Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				  <path d="M14.5402 14L11.5842 11.1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>	
+			</div>
+			<div class="news-cont">
+				<div class="container x proximity-scroll-snapping" dir="ltr">
+					<div>
+						<img style="margin-left: 36px; margin-top: 20px;" src="./assets/group246.svg" alt="">
+						<img style="margin-left: 36px; margin-top: 20px;" src="./assets/group248.svg" alt="">
+					</div>											
+				</div>
+			</div>
+
+		</div>
+
+
+
+		<div class="bottom-bar df">
+			
+			<div class="main-page" onclick="window.location.href = 'main.html'">
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+				  <path d="M9.52 2.84004L4.13 7.04004C3.23 7.74004 2.5 9.23004 2.5 10.36V17.77C2.5 20.09 4.39 21.99 6.71 21.99H18.29C20.61 21.99 22.5 20.09 22.5 17.78V10.5C22.5 9.29004 21.69 7.74004 20.7 7.05004L14.52 2.72004C13.12 1.74004 10.87 1.79004 9.52 2.84004Z" stroke="#8696BB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+				  <path d="M12.5 17.99V14.99" stroke="#8696BB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>			
+			</div>
+			<div class="news-page df" onclick="window.location.href = 'news.html'">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+				  <path d="M16.2502 3.56V4.01584L16.7041 4.05787C17.9609 4.17424 18.8398 4.60009 19.4288 5.22534C20.0189 5.8518 20.3661 6.72969 20.461 7.83991C20.4605 7.84001 20.4603 7.84 20.4602 7.84H3.54185C3.54122 7.83968 3.54042 7.83919 3.5396 7.83853C3.6346 6.72896 3.98181 5.85155 4.57168 5.22534C5.16066 4.60009 6.03955 4.17424 7.29633 4.05787L7.75023 4.01584V3.56V2C7.75023 1.86614 7.86637 1.75 8.00023 1.75C8.13409 1.75 8.25023 1.86614 8.25023 2V3.5V4H8.75023H15.2502H15.7502V3.5V2C15.7502 1.86614 15.8664 1.75 16.0002 1.75C16.1341 1.75 16.2502 1.86614 16.2502 2V3.56Z" stroke="#8696BB"/>
+				  <path d="M9.54448 18.5816L9.55928 18.5683L9.57298 18.5538C9.83498 18.2773 10 17.8963 10 17.5C10 17.1036 9.83498 16.7227 9.57298 16.4461L9.55928 16.4316L9.54448 16.4183C9.40399 16.2919 9.24625 16.1909 9.07231 16.1184C8.70923 15.9671 8.29077 15.9671 7.92769 16.1184C7.75375 16.1909 7.59601 16.2919 7.45552 16.4183L7.44072 16.4316L7.42702 16.4461C7.16502 16.7227 7 17.1036 7 17.5C7 17.8963 7.16502 18.2773 7.42702 18.5538L7.44072 18.5683L7.45552 18.5816C7.59601 18.7081 7.75375 18.809 7.92769 18.8815C8.09884 18.9528 8.29415 19 8.5 19C8.70585 19 8.90116 18.9528 9.07231 18.8815C9.24625 18.809 9.40399 18.7081 9.54448 18.5816ZM9.54448 15.0816L9.56404 15.064L9.58165 15.0444C9.70809 14.904 9.80906 14.7462 9.88154 14.5723C9.95285 14.4011 10 14.2058 10 14C10 13.7941 9.95285 13.5988 9.88154 13.4277C9.80906 13.2537 9.70809 13.096 9.58165 12.9555L9.56404 12.9359L9.54448 12.9183C9.40399 12.7919 9.24625 12.6909 9.07231 12.6184C8.70923 12.4671 8.29077 12.4671 7.92769 12.6184C7.75375 12.6909 7.59601 12.7919 7.45552 12.9183L7.43596 12.9359L7.41835 12.9555C7.29191 13.096 7.19094 13.2537 7.11846 13.4277C7.04715 13.5988 7 13.7941 7 14C7 14.2058 7.04715 14.4011 7.11846 14.5723C7.19094 14.7462 7.29191 14.904 7.41835 15.0444L7.43596 15.064L7.45552 15.0816C7.59601 15.2081 7.75375 15.309 7.92769 15.3815C8.09884 15.4528 8.29415 15.5 8.5 15.5C8.70585 15.5 8.90116 15.4528 9.07231 15.3815C9.24625 15.309 9.40399 15.2081 9.54448 15.0816ZM13.0445 15.0816L13.0593 15.0683L13.073 15.0538C13.335 14.7773 13.5 14.3963 13.5 14C13.5 13.6036 13.335 13.2227 13.073 12.9461L13.0593 12.9316L13.0445 12.9183C12.9061 12.7938 12.751 12.694 12.5802 12.6217C12.2125 12.456 11.7875 12.456 11.4198 12.6217C11.249 12.694 11.0939 12.7938 10.9555 12.9183L10.9407 12.9316L10.927 12.9461C10.665 13.2227 10.5 13.6036 10.5 14C10.5 14.3963 10.665 14.7773 10.927 15.0538L10.9407 15.0683L10.9555 15.0816C11.096 15.2081 11.2538 15.309 11.4277 15.3815C11.5988 15.4528 11.7941 15.5 12 15.5C12.2059 15.5 12.4012 15.4528 12.5723 15.3815C12.7462 15.309 12.904 15.2081 13.0445 15.0816ZM4 10.34H20C20.2739 10.34 20.5 10.5661 20.5 10.84V17C20.5 18.4233 20.1441 19.5331 19.4461 20.2847C18.7543 21.0297 17.6547 21.5 16 21.5H8C6.3453 21.5 5.24565 21.0297 4.5539 20.2847C3.85591 19.5331 3.5 18.4233 3.5 17V10.84C3.5 10.5661 3.72614 10.34 4 10.34Z" stroke="#8696BB"/>
+				</svg>		
+			</div>
+			<div class="history-page" onclick="window.location.href = 'history.html'">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+				  <path d="M8.5 19H8C4 19 2 18 2 13V8C2 4 4 2 8 2H16C20 2 22 4 22 8V13C22 17 20 19 16 19H15.5C15.19 19 14.89 19.15 14.7 19.4L13.2 21.4C12.54 22.28 11.46 22.28 10.8 21.4L9.3 19.4C9.14 19.18 8.77 19 8.5 19Z" stroke="#8696BB" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+				  <path d="M15.9965 11H16.0054" stroke="#8696BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				  <path d="M11.9955 11H12.0045" stroke="#8696BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				  <path d="M7.99451 11H8.00349" stroke="#8696BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>				
+			</div>
+			<div class="office-page" onclick="window.location.href = 'office.html'">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+				  <path d="M12.1601 10.87C12.0601 10.86 11.9401 10.86 11.8301 10.87C9.45006 10.79 7.56006 8.84 7.56006 6.44C7.56006 3.99 9.54006 2 12.0001 2C14.4501 2 16.4401 3.99 16.4401 6.44C16.4301 8.84 14.5401 10.79 12.1601 10.87Z" stroke="#8696BB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+				  <path d="M7.15997 14.56C4.73997 16.18 4.73997 18.82 7.15997 20.43C9.90997 22.27 14.42 22.27 17.17 20.43C19.59 18.81 19.59 16.17 17.17 14.56C14.43 12.73 9.91997 12.73 7.15997 14.56Z" stroke="#8696BB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>				
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+	<script>
+		let date = new Date('June 26 2024 00:00:00');
+
+		function counts(){
+			let now = new Date();
+			gap = date - now;
+
+			let days = Math.floor(gap / 1000 / 60 / 60 / 24);
+			let hours = Math.floor(gap / 1000 / 60 / 60 ) % 24;
+			let minutes = Math.floor(gap / 1000 / 60 ) % 60;
+			let seconds = Math.floor(gap / 1000 ) % 60;
+
+			document.getElementById('d').innerText = days;
+			document.getElementById('h').innerText = hours;
+			document.getElementById('m').innerText = minutes;
+			document.getElementById('s').innerText = seconds;
+		}
+		counts();
+
+		setInterval(counts, 1000);
+
+		function toggleBtn(button){
+			button.classList.toggle("active");
+		}
+		function toggleDiv(la){
+			la.classList.toggle("active");
+			var textElement = document.getElementById("text");
+			var divElement = document.getElementById("lacont");
+
+			textElement.style.display = textElement.style.display === "block" ? "none" : "block";
+			divElement.style.display = divElement.style.display === "block" ? "none" : "block";	
+		}
+
+		function toggleBtn2(button2){
+			button2.classList.toggle("active");
+		}
+		function toggleDiv2(tustuu){
+			tustuu.classList.toggle("active");
+			var textElement = document.getElementById("text2");
+			var divElement = document.getElementById("tustuucont");
+
+			textElement.style.display = textElement.style.display === "block" ? "none" : "block";
+			divElement.style.display = divElement.style.display === "block" ? "none" : "block";
+		}
+	</script>
+
+</body>
+</html>
